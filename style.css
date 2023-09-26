@@ -27,6 +27,7 @@ body {
     border-radius: 10px;
     position: absolute;
     left: 33%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
 h1 {
@@ -51,7 +52,7 @@ img {
     right: -75px;
 }
 
-.odkaz1 a {
+.odkaz a {
     display: block;
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
@@ -61,34 +62,28 @@ img {
     text-align: center;
     color: white;
     padding: 10px;
+}
+
+.twitter {
     background-color: #1da1f2;
+    border-radius: 5px;
     margin: 30px 30px 5px 30px;
-    border-radius: 5px;
 }
 
-.odkaz2 a {
-    display: block;
-    font-family: 'Nunito', sans-serif;
-    font-size: 18px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
-    color: white;
-    padding: 10px;
-    background-color: #3b5998;
-    border-radius: 5px;
-    margin:0 30px 30px 30px;
-}
-
-.odkaz1 a:hover,
-.odkaz1 a:focus,
-.odkaz1 a:active {
+.twitter:hover,
+.twitter:focus,
+.twitter:active {
     background-color: #0b7bc1;
 }
 
-.odkaz2 a:hover,
-.odkaz2 a:focus,
-.odkaz2 a:active {
+.facebook {
+    background-color: #3b5998;
+    border-radius: 5px;
+    margin: 0 30px 30px 30px;
+}
+
+.facebook:hover,
+.facebook:focus,
+.facebook:active {
     background-color: #2b406e;
 }
